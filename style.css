@@ -1,0 +1,90 @@
+
+h1 {
+	color: white;
+}
+
+
+
+body {
+  background: lightgrey;
+  color: white;
+  font-family: Helvetica neue, Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header { 
+	background-image: url("images/header2.jpg");
+	background-size: 100%;
+	background-position: center;
+	padding: 20px;
+	text-align: center;
+}
+
+section {
+	background-image: url("images/background2.jpg");
+	background-size: 100%;
+	background-position: center;
+	color: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+footer {
+	background: black;
+	padding: 10px 20px;
+}
+
+div {
+	background: rgba(0, 0, 0, 0.3);
+	
+	margin: auto;
+	width: 400px;
+	height: 500px;
+}
+
+header .logo a {
+	background-image: url("images/Ventur.png");
+	background-size: 300px;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 300px;
+	top: -30px;
+	display: inline-block;
+	height: 150px;
+	text-indent: -9999999px;
+}
+
+a.header {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+img.sectionimg {
+	height: 200px;
+	width: 200px;
+	margin-left: 90px;
+	margin-top: 90px;
+	border-radius: 50%;
+}
+
+img.pcimg {
+	margin-top: 20px;
+	height: 400px;
+	margin-left: 60px;
+}
